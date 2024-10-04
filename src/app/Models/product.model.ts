@@ -17,6 +17,7 @@ export class Product {
   brand?: Brand;
   specifications?: Specification[];
   variants?: Variant[];
+  imageUrl?:string;
   productAccessories?: ProductAccessory[];
   reviews?: Review[];
   orderItems?: OrderItem[];

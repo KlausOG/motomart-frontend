@@ -8,8 +8,8 @@ export class Accessory {
   brand?: Brand;
   category?: AccessoryCategory; // Ensure you define AccessoryCategory
   productAccessories?: ProductAccessory[];
+  imageUrl?: string; // New property for image URL
 }
-
 
 export enum AccessoryCategory {
     BIKE_PARTS = 'BIKE_PARTS',
